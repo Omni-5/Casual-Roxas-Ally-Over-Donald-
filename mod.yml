@@ -14,23 +14,3 @@ assets:
    method: copy
    source:
      - name: obj/P_EX020.mset
- - name: obj/W_EX020.mdlx
-   method: copy
-   source:
-     - name: obj/W_EX020.mdlx
- - name: obj/W_EX020.mset
-   method: copy
-   source:
-     - name: obj/W_EX020.mset
- - name: obj/W_EX020.a.us
-   method: copy
-   source:
-     - name: obj/W_EX020.a.us
- - name: 03system.bin
-   method: binarc
-   source:
-   - name: sklt
-     type: list
-     method: listpatch
-     source:
-       - name: 03system.bin/SkltList.yml
